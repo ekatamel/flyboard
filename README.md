@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# About this project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This app was desined to improve the way customers interact with Flyboard.cz company to get the flyboarding experience. By facilitating online sales of vouchers, merchandise, and video content, this app streamlines the process of making reservations and reduces the administrative overhead associated with managing such organization.
 
-In the project directory, you can run:
+## What is Flyboarding?
 
-### `npm start`
+Flyboarding is water sport that employs a type of water jetpack attached to a personal watercraft. This jetpack propels the rider through air and water, allowing for spectacular maneuvers and an unforgettable experience.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Key features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Voucher Purchase**: Allows to buy vouchers, along with merchandise and videos, directly through the app.
+- **Voucher Generation**: Allows to generate PDF vouchers, which are downloadble in the app and sent via email.
+- **Discount Application**: Allows to take advantage of discounts, including those offered by third-party partners.
+- **Payment Integration**: Offers integrated card payments through Stripe and supports QR code generation for bank transfers.
+- **Reservation System**: Lessons reservations with options to select location, date, and time, accommodating multiple vouchers.
+- **Emailing**: Implemented automated emailing tasks to send customers order details, vouchers and reminders. 
+- **Admin Console**: interface for managing vouchers, locations, discounts, and reservations.
 
-### `npm test`
+# Tech stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Backend
 
-### `npm run build`
+The backend infrastructure, crafted by [@meliksetz](https://github.com/meliksetz), combines selection of technologies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Flask** as lightweight web application framework and its extensions
+- **Celery with RabbitMQ/AMQP** for asynchronous task handling and message passing.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The repository with backend part is private and link is provided on request.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Frontend
 
-### `npm run eject`
+- **React** with **Chakra UI**, **Framer Motion**, **Swiper**, **Tailwind CSS** for a responsive and animated UI.
+- **Formik** and **Yup** for form management.
+- **Axios**, **React Query** for data fetching and state management.
+- **Stripe** for online payments in React applications. 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Screenshots
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Intro screen:
+<img width="1440" alt="Screenshot 2024-03-14 at 19 43 34" src="https://github.com/ekatamel/flyboard_show.cz/assets/52611390/9dcdd179-78db-41a3-bfa4-207ed5d2180b">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Lessons selection:
+<img width="1440" alt="Screenshot 2024-03-14 at 19 43 58" src="https://github.com/ekatamel/flyboard_show.cz/assets/52611390/ff009ce7-1e04-4f0a-82f7-01a6eb781956">
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Merch selection:
+<img width="1439" alt="Screenshot 2024-03-14 at 19 45 13" src="https://github.com/ekatamel/flyboard_show.cz/assets/52611390/beef3741-fe3e-404b-b9b0-125acaf5a79f">
 
-## Learn More
+### Summary screen:
+<img width="1439" alt="Screenshot 2024-03-14 at 19 45 31" src="https://github.com/ekatamel/flyboard_show.cz/assets/52611390/d3f69b9d-37c0-48c2-b66f-13d39dafcb6d">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Payment screen:
+<img width="1435" alt="Screenshot 2024-03-14 at 19 45 40" src="https://github.com/ekatamel/flyboard_show.cz/assets/52611390/fe8a8a11-921f-4f32-b256-e925adba45a4">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Generated PDF vouchers:
+<img width="1440" alt="Screenshot 2024-03-14 at 19 49 16" src="https://github.com/ekatamel/flyboard_show.cz/assets/52611390/10d91a51-147c-4ab1-b293-e17a7f951493">
 
-### Code Splitting
+### Voucher validation:
+<img width="1438" alt="Screenshot 2024-03-14 at 19 51 28" src="https://github.com/ekatamel/flyboard_show.cz/assets/52611390/8c08c53b-91e8-4015-a44e-6635ae3ed3c8">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Date/time/location selection:
+<img width="1439" alt="Screenshot 2024-03-14 at 19 53 49" src="https://github.com/ekatamel/flyboard_show.cz/assets/52611390/faacb2f0-534f-47e9-83f0-3fb2e91af205">
 
-### Analyzing the Bundle Size
+### Admin panel - Vouchers:
+<img width="1440" alt="Screenshot 2024-03-14 at 19 54 54" src="https://github.com/ekatamel/flyboard_show.cz/assets/52611390/78a69700-0073-4d66-b0ce-7d6024468391">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Admin panel - Reservation:
+<img width="1440" alt="Screenshot 2024-03-14 at 19 55 07" src="https://github.com/ekatamel/flyboard_show.cz/assets/52611390/85428410-e19d-43a9-9435-eaccaa6c7c6d">
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
