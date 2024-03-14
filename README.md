@@ -27,7 +27,7 @@ The backend infrastructure, crafted by [@meliksetz](https://github.com/meliksetz
 - **Flask** as lightweight web application framework and its extensions
 - **Celery with RabbitMQ/AMQP** for asynchronous task handling and message passing.
 
-The repository with backend part is private and link is provided on request.
+The repository with backend part is private and link is provided upon request.
 
 ## Frontend
 
