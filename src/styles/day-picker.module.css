@@ -1,0 +1,16 @@
+.available {
+  background-color: white !important;
+  color: black !important;
+}
+
+.disabled {
+  border: 1px solid rgba(255, 255, 255, 0.7) !important;
+  color: white;
+}
+
+.selected {
+  background-color: #ffea00 !important;
+  border: 1px solid #ffea00 !important;
+  color: black !important;
+  font-weight: bold;
+}

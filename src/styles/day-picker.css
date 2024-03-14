@@ -1,0 +1,64 @@
+@media screen and (min-width: 768px) {
+  .rdp {
+    --rdp-cell-size: 46px !important;
+  }
+
+  .rdp-day {
+    margin: 6px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .rdp-day {
+    margin: 4px;
+  }
+}
+
+.rdp-day {
+  color: white;
+  border: 1px solid white;
+}
+
+.rdp-day:hover:not([disabled]) {
+  background-color: #ffea00 !important;
+  border: 1px solid #ffea00 !important;
+  color: black;
+}
+
+.rdp {
+  width: 50%;
+}
+
+.rdp-head_cell {
+  font-family: 'Bebas Neue';
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.46);
+  font-weight: normal;
+}
+
+.rdp-caption {
+  justify-content: center;
+  position: relative;
+}
+
+.rdp-nav {
+  position: absolute;
+  display: flex;
+  gap: 4.5rem;
+}
+
+.rdp-nav .rdp-button_reset:hover {
+  background: none !important;
+  color: #ffea00;
+}
+
+.rdp-caption_label {
+  font-family: 'Bebas Neue';
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.rdp-button[disabled]:not(.rdp-day_selected) {
+  opacity: 1;
+}

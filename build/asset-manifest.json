@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.45cfd201.css",
+    "main.js": "/static/js/main.2cc997e4.js",
+    "static/media/team.jpeg": "/static/media/team.a708a6ac966ad6965df9.jpeg",
+    "static/media/voucher-screen.png": "/static/media/voucher-screen.e96a3cea9720d38d317b.png",
+    "static/media/voucher-image.png": "/static/media/voucher-image.4a6d47fab3dc0b5362a0.png",
+    "static/media/Roboto-Medium.ttf": "/static/media/Roboto-Medium.9c2fdc31af0bd24583c8.ttf",
+    "static/media/logo-new.svg": "/static/media/logo-new.b32790c6cf07707e509be878c8f8ac97.svg",
+    "static/media/BebasNeue-Regular.ttf": "/static/media/BebasNeue-Regular.12e3683f9192436a7be8.ttf",
+    "static/media/old-logo.png": "/static/media/old-logo.2b22b4b7e32ccb20a080.png",
+    "static/media/QRcode.png": "/static/media/QRcode.53fbcf2b3b09b83f1f9e.png",
+    "static/media/instagram.svg": "/static/media/instagram.e6ddb35e803fc566d6be84b78c34db78.svg",
+    "static/media/stripe.svg": "/static/media/stripe.86add69d6a88f2ce6f5e745cc6636468.svg",
+    "index.html": "/index.html",
+    "static/media/cross.svg": "/static/media/cross.318471fd27e696a874de4a5d549f93bd.svg",
+    "static/media/facebook.svg": "/static/media/facebook.c9115a8f75a4ac0d1e07dbb98decfed8.svg",
+    "static/media/arrow-left.svg": "/static/media/arrow-left.72e467d70ad3121a06d7dc946b184e52.svg",
+    "static/media/dropdown.svg": "/static/media/dropdown.7ab9816ab2a8aa870aa352cb35d41b89.svg",
+    "main.45cfd201.css.map": "/static/css/main.45cfd201.css.map",
+    "main.2cc997e4.js.map": "/static/js/main.2cc997e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45cfd201.css",
+    "static/js/main.2cc997e4.js"
+  ]
+}

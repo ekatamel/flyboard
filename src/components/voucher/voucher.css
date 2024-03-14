@@ -1,0 +1,126 @@
+
+
+.container {
+  width: 842px !important;
+  height: 595px !important;
+  background-color: black;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  position: relative;
+  margin: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 95vw !important;
+    height: calc(96vw * 0.7) !important;
+  }
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.name {
+  font-family: Bebas Neue;
+  color: white;
+  font-size: 22.5px;
+  background-color: rgba(217, 217, 217, 0.3);
+  padding: 2px 32px;
+  width: fit-content;
+  margin-bottom: 16px;
+  height: 33px;
+}
+
+.code {
+  font-family: Bebas Neue;
+  color: #ffea00;
+  margin-bottom: 16px;
+}
+
+.code-title {
+  color: white;
+}
+
+.text {
+  font-size: 11px;
+  color: white;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  color: white;
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: -8px;
+}
+
+.voucher-container {
+  width: 304px !important;
+  display: flex;
+  align-items: center;
+}
+
+.voucher {
+  width: 100%;
+}
+
+.lesson-type {
+  font-family: Bebas Neue;
+  color: #ffea00;
+  font-size: 31px;
+  margin-bottom: 8px;
+}
+
+.instructions {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.qr-code {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 120px;
+  height: 120px;
+  background-color: white;
+}
+
+.validity {
+  font-family: Bebas Neue;
+  color: white;
+  font-size: 11px;
+  position: absolute;
+  bottom: 13px;
+  left: 13px;
+}
+
+.validity-until {
+  color: #ffea00;
+}
+
+.logo {
+  width: 152px;
+}
+
+.socialLogo {
+  width: 25px;
+  height: 25px;
+}
